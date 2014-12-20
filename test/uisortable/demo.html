@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ui-sortable</title>
+  <style type="text/css" src="/bower_components/bootstrap/dist/css/bootstrap.min.css"></style>
+  <style type="text/css" src="demo.css"></style>
+
+  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-ui-sortable/sortable.min.js"></script>
+  <script type="text/javascript" src="demo.js"></script>
+
+</head>
+<body>
+
+  <section ng-app="sortableApp" ng-controller="sortableController">
+    <div class="row">
+      <div class="col-md-6">
+        <ul ui-sortable="sortableOptions" ng-model="list" class="list">
+          <li ng-repeat="item in list" class="item">{{item.text}}</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="list logList">
+          <li ng-repeat="entry in sortingLog" class="logItem">{{entry.Text}}</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+

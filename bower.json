@@ -1,0 +1,31 @@
+{
+  "name": "tuger-crawler-wenda",
+  "version": "0.0.1",
+  "authors": [
+    "taojj <sinotao1@gmail.com>"
+  ],
+  "description": "tuger-crawler-wenda",
+  "keywords": [
+    "tuger",
+    "crawler",
+    "wenda"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.24",
+    "bootstrap": "~3.2.0",
+    "ng-grid": "~2.0.13",
+    "angular-ui-router": "~0.2.11",
+    "angular-route": "~1.2.24",
+    "angular-ui-bootstrap": "~0.11.0",
+    "angular-ui-sortable": "~0.12.11",
+    "jquery-ui": "~1.11.1"
+  }
+}

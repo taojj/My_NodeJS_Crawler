@@ -1,0 +1,23 @@
+{
+  "name": "tufencrawler",
+  "version": "0.0.1",
+  "description": "tufen,crawler,demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tufen",
+    "crawler",
+    "demo"
+  ],
+  "author": "taojj",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cheerio": "^0.17.0",
+    "debug": "^2.0.0",
+    "mysql": "^2.5.0",
+    "request": "^2.42.0"
+  }
+}
